@@ -1,0 +1,30 @@
+.row{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.movie-row{
+    display: flex;
+    margin-top: 20px;
+    overflow-x: scroll;
+}
+
+.movie{
+    width: 100%;
+    height: 200px;
+    margin-right: 20px;
+    transition: 500ms;
+}
+
+.movie:hover{
+    transform: scale(1.05);
+}
+
+.movie-poster{
+    height: 350px;
+}
+
+::-webkit-scrollbar{  /* pseudo class to design the scroll bar  */ /* new property */ /* affects the browser and not the tags individually */
+    display: none;
+}

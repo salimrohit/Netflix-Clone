@@ -1,0 +1,11 @@
+.navig{
+    width: 100%;
+    padding: 1rem;
+    position: fixed;
+    z-index: 1;
+}
+
+
+.navig-black{
+    background-color: black;
+}
