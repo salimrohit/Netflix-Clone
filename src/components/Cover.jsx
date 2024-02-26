@@ -11,7 +11,7 @@ function Cover({fetchUrl}) {
   const fetchData = async()=>{
     const response = await instance.get(fetchUrl)
     /* console.log(response.data.results[Math.floor(Math.random()*response.data.results.length-1)]); */
-    setMovie(response.data.results[Math.floor(Math.random()*response.data.results.length-1)])
+    setMovie(response?.data.results[Math.floor(Math.random()*response.data.results.length-1)])
   }
 
 

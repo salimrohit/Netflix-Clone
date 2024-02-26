@@ -11,7 +11,7 @@ function Row({title,fetchUrl,isPoster}) { //object destructuring
     const fetchData = async()=>{  // fetching data is a "sideeffect",ie, it goes against the pure function concept
       const response = await instance.get(fetchUrl)
       /* console.log(response.data.results); */
-      setMovies(response.data.results)
+      setMovies(response?.data.results)
     }
 
     
